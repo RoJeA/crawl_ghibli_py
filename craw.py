@@ -4,7 +4,7 @@ import os
 import time
 
 url = "http://www.ghibli.jp/info/013344/"
-pathname = "/Users/ac_rl/Documents/crawl_ghibli_py/download_img"
+pathname = "/Users/user_name/Documents/crawl_ghibli_py/download_img"
 r = requests.get(url)
 web_content = r.text
 
